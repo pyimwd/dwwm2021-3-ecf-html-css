@@ -327,6 +327,12 @@ ul {
     background-size: cover;
 }
 
+@media screen and (min-resolution: 144dpi) {
+    .hero {
+        background-image: url(../img/arriere-plan@2x_resultat.webp);
+    }
+}
+
 .hero .container {
     display: flex;
     justify-content: flex-end;
@@ -847,6 +853,12 @@ textarea {
     margin-bottom: 4rem;
     background-image: url(../img/feature-html-css_resultat.webp);
     background-size: cover;
+}
+
+@media screen and (min-resolution: 144dpi) {
+    .feature-item-header {
+        background-image: url(../img/feature-html-css@2x_resultat.webp);
+    }
 }
 
 .feature-item {
