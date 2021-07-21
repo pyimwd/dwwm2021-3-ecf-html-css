@@ -432,6 +432,15 @@ h1 {
     width: 100%;
 }
 
+.news-item > a:hover,
+.news-item > a:focus,
+.member-link:hover,
+.member-link:focus,
+.feature-item > a:hover,
+.feature-item > a:focus {
+    transform: translateY(1rem);
+}
+
 @media screen and (min-width: 36em) {
     .news-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -459,6 +468,7 @@ h1 {
 
 .member-link {
     text-decoration: none;
+    transition: .3s;
 }
 
 .member-more {
