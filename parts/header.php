@@ -15,7 +15,7 @@
 
     <header class="main-header">
         <div class="container">
-            <span class="logo">DWWM</span>
+            <a href="index.php" class="logo-link"><span class="logo">DWWM</span></a>
             <nav class="main-nav">
                 <button class="toggle-menu" aria-expanded="false" aria-controls="menu">Menu</button>
                 <ul class="menu" role="list" hidden>
