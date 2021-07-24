@@ -72,6 +72,8 @@
     --text: #331100;
     --inverted: #fff;
     --accent: #fd7e37;
+    --dark-grey: #707070;
+    --grey: #00000029;
 }
 
 /* Typographie */
@@ -106,7 +108,7 @@ h2 {
     line-height: 1em;
     padding-top: .2rem;
     padding-bottom: .2rem;
-    margin-bottom: 0.8em;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
@@ -165,6 +167,7 @@ h3 {
     }
     h2 {
         font-size: 4.8rem;
+        margin-bottom: 4rem;
     }
     .logo-like {
         line-height: 0.62em;
@@ -220,11 +223,11 @@ h3 {
 }
 
 section:not(.hero) {
-    padding-bottom: 4rem;
+    padding-bottom: 1.2rem;
 }
 
 section:not(.hero, .feature-item) {
-    padding-top: 4rem;
+    padding-top: 1.2rem;
 }
 
 .container-narrow {
@@ -256,18 +259,31 @@ section:not(.hero, .feature-item) {
 }
 
 .feature-fig {
-    margin-bottom: 4rem;
+    margin-bottom: 1.2rem;
 }
 
 .features-text-layout > h3,
 .features-text-layout > p {
-    margin-bottom: 4rem;
+    margin-bottom: 1.2rem;
 }
 
 @media screen and (min-width: 36em) {
     .container {
         max-width: 57.6rem;
     }
+    section:not(.hero) {
+        padding-bottom: 4rem;
+    }
+    section:not(.hero, .feature-item) {
+        padding-top: 4rem;
+    }
+    .feature-fig {
+        margin-bottom: 4rem;
+    }
+    .features-text-layout > h3,
+    .features-text-layout > p {
+    margin-bottom: 4rem;
+}
 }
 
 @media screen and (min-width: 48em) {
@@ -307,10 +323,12 @@ section:not(.hero, .feature-item) {
     justify-content: space-between;
 }
 
-.main-header .logo {
+.logo-link {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
+
 ul {
     list-style: none;
 }
@@ -363,6 +381,7 @@ h1 {
     background-color: var(--accent);
     align-self: center;
     text-align: center;
+    border: 1px solid var(--dark-grey);
     transition: .3s;
 }
 
@@ -395,17 +414,18 @@ h1 {
 .news-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 3.2rem;
+    gap: 1.2rem;
 }
 
 .news-item > a {
     display: block;
     background-color: #fff;
-    box-shadow: 0 .3rem .6rem rgba(0, 0, 0,.16);
+    box-shadow: 1rem .3rem 2.6rem var(--grey);
     text-decoration: none;
     color: currentColor;
+    border-radius: .4rem;
     transition: .3s;
-    margin-bottom: 4rem;
+    margin-bottom: 1.2rem;
 }
 
 .date-fig:before {
@@ -422,8 +442,10 @@ h1 {
     padding-inline: 0;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    border-radius: 0 0 .4rem .4rem;
     color: var(--inverted);
     background-color: var(--accent);
+    opacity: 1;
     transition: .3s;
 }
 
@@ -432,6 +454,7 @@ h1 {
     position: relative;
     margin-left: 1.6rem;
     top: .4rem;
+    opacity: 1;
 }
 
 .news-img {
@@ -450,6 +473,10 @@ h1 {
 @media screen and (min-width: 36em) {
     .news-grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 3.2rem;
+    }
+    .news-item > a {
+        margin-bottom: 4rem;
     }
 }
 
@@ -463,12 +490,13 @@ h1 {
 
 .team {
     background-color: var(--accent);
+    border: solid 1px var(--dark-grey);
 }
 
 .member-list {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 3.2rem;
+    gap: 1.2rem;
     text-align: center;
 }
 
@@ -497,6 +525,7 @@ h1 {
 @media screen and (min-width: 36em) {
     .member-list {
         grid-template-columns: repeat(2, 1fr);
+        gap: 3.2rem;
     }
 }
 
@@ -511,17 +540,18 @@ h1 {
 .features-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 3.2rem;
+    gap: 1.2rem;
 }
 
 .feature-item > a {
     display: block;
     background-color: #fff;
-    box-shadow: 0 .3rem .6rem rgba(0, 0, 0,.16);
+    box-shadow: 1rem .3rem 2.6rem var(--grey);
     text-decoration: none;
     color: currentColor;
+    border-radius: .4rem;
     transition: .3s;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .btn-feature {
@@ -531,6 +561,7 @@ h1 {
     padding-inline: 0;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    border-radius: 0 0 .4rem .4rem;
     color: var(--inverted);
     background-color: var(--accent);
     transition: .3s;
@@ -546,6 +577,10 @@ h1 {
 @media screen and (min-width: 36em) {
     .features-grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 3.2rem;
+    }
+    .feature-item > a {
+        margin-bottom: 4rem;
     }
 }
 
@@ -555,12 +590,13 @@ h1 {
     background-color: var(--accent);
     padding-top: 4rem;
     padding-bottom: 3.6rem;
+    border: solid 1px var(--dark-grey);
 }
 
 .site-footer .container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .footer-title {
@@ -615,8 +651,8 @@ h1 {
 
 .social-item a {
     display: block;
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -653,6 +689,10 @@ h1 {
 
     .footer-title {
         text-align: left;
+    }
+    .social-item a {
+        width: 3rem;
+        height: 3rem;
     }
 }
 
@@ -766,7 +806,7 @@ textarea {
     color: var(--inverted);
     background-color: var(--accent);
     border: 0;
-    border-radius: 0.5rem;
+    border-radius: 0.4rem;
     transition: .3s;
 }
 
@@ -940,12 +980,6 @@ textarea {
 .menu-link:focus,
 .student-link:hover,
 .student-link:focus,
-.btn-news:hover,
-.btn-news:focus,
-.btn-feature:hover,
-.btn-feature:focus,
-.btn-contact:hover,
-.btn-contact:focus,
 .telephone-link:hover,
 .telephone-link:focus,
 .legal-link:hover,
@@ -955,9 +989,18 @@ textarea {
     color: var(--accent);
 }
 
+.btn-news:hover,
+.btn-news:focus,
+.btn-feature:hover,
+.btn-feature:focus {
+    opacity: .5;
+    border: 1px solid var(--dark-grey);
+}
+
 .btn-contact:hover,
 .btn-contact:focus {
-    border: solid .1rem var(--accent);
+    opacity: .5;
+    border: solid .1rem var(--dark-grey);
 }
 
 .pages button:hover,
