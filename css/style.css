@@ -436,6 +436,7 @@ h1 {
 }
 
 .btn-news {
+    display: block;
     width: 100%;
     border: 0;
     padding-block: 0;
@@ -443,6 +444,7 @@ h1 {
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-radius: 0 0 .4rem .4rem;
+    text-align: center;
     color: var(--inverted);
     background-color: var(--accent);
     opacity: 1;
@@ -555,6 +557,7 @@ h1 {
 }
 
 .btn-feature {
+    display: block;
     width: 100%;
     border: 0;
     padding-block: 0;
@@ -562,6 +565,7 @@ h1 {
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-radius: 0 0 .4rem .4rem;
+    text-align: center;
     color: var(--inverted);
     background-color: var(--accent);
     transition: .3s;
