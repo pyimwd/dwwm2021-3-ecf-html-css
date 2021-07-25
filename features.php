@@ -18,7 +18,7 @@ $title='La formation'; ?>
                                 <h3 class="feature-title">Module HTML/CSS</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                             </div>
-                            <button class="btn btn-feature">Lire la suite</button>
+                            <span class="btn btn-feature">Lire la suite</span>
                         </a>
                     </article>
                     <article class="feature-item">
@@ -28,7 +28,7 @@ $title='La formation'; ?>
                                 <h3 class="feature-title">Module JavaScript</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                             </div>
-                            <button class="btn btn-feature">Lire la suite</button>
+                            <span class="btn btn-feature">Lire la suite</span>
                         </a>
                     </article>
                     <article class="feature-item">
@@ -38,7 +38,7 @@ $title='La formation'; ?>
                                 <h3 class="feature-title">Module HTML/CSS</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                             </div>
-                            <button class="btn btn-feature">Lire la suite</button>
+                            <span class="btn btn-feature">Lire la suite</span>
                         </a>
                     </article>
                     <article class="feature-item">
@@ -48,7 +48,7 @@ $title='La formation'; ?>
                                 <h3 class="feature-title">Module JavaScript</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                             </div>
-                            <button class="btn btn-feature">Lire la suite</button>
+                            <span class="btn btn-feature">Lire la suite</span>
                         </a>
                     </article>
                     <article class="feature-item">
@@ -58,7 +58,7 @@ $title='La formation'; ?>
                                 <h3 class="feature-title">Module HTML/CSS</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                             </div>
-                            <button class="btn btn-feature">Lire la suite</button>
+                            <span class="btn btn-feature">Lire la suite</span>
                         </a>
                     </article>
                     <article class="feature-item">
@@ -68,7 +68,7 @@ $title='La formation'; ?>
                                 <h3 class="feature-title">Module JavaScript</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                             </div>
-                            <button class="btn btn-feature">Lire la suite</button>
+                            <span class="btn btn-feature">Lire la suite</span>
                         </a>
                     </article>
                 </div>
