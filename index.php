@@ -6,7 +6,7 @@
         <section class="hero">
             <div class="container">
                 <div class="hero-layout">
-                <h1 class="main-title">Bienvenue sur le site de la promotion DWWM2019-2</h1>
+                <h1 class="main-title">Bienvenue sur le site de la promotion DWWM2021-3</h1>
                 <a href="team.php" class="student-link">Rencontrez nos étudiants</a>
                 </div>
             </div>
@@ -26,7 +26,7 @@
                                 <h3 class="news-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
                                 <p class="news-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                             </div>
-                            <button class="btn-news">Lire la suite</button>
+                            <span class="btn-news">Lire la suite</span>
                         </a>
                     </article>
                     <article class="news-item">
@@ -37,7 +37,7 @@
                                 <h3 class="news-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
                                 <p class="news-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                                 </div>
-                            <button class="btn-news">Lire la suite</button>
+                            <span class="btn-news">Lire la suite</span>
                         </a>
                     </article>
                     <article class="news-item">
@@ -48,7 +48,7 @@
                                 <h3 class="news-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
                                 <p class="news-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                             </div>
-                            <button class="btn-news">Lire la suite</button>
+                            <span class="btn-news">Lire la suite</span>
                         </a>
                     </article>
                 </div>
@@ -104,7 +104,7 @@
                                 <h3 class="feature-title">Module HTML/CSS</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                             </div>
-                            <button class="btn btn-feature">Lire la suite</button>
+                            <span class="btn btn-feature">Lire la suite</span>
                         </a>
                     </article>
                     <article class="feature-item">
@@ -114,7 +114,7 @@
                                 <h3 class="feature-title">Module JavaScript</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                             </div>
-                            <button class="btn btn-feature">Lire la suite</button>
+                            <span class="btn btn-feature">Lire la suite</span>
                         </a>
                     </article>    
                 </div>
