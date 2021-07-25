@@ -18,7 +18,7 @@ $title='Les actualités'; ?>
                             <h3 class="news-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
                             <p class="news-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                         </div>
-                        <button class="btn-news">Lire la suite</button>
+                        <span class="btn-news">Lire la suite</span>
                     </a>
                 </article>
                 <article class="news-item">
@@ -29,7 +29,7 @@ $title='Les actualités'; ?>
                             <h3 class="news-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
                             <p class="news-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                             </div>
-                        <button class="btn-news">Lire la suite</button>
+                        <span class="btn-news">Lire la suite</span>
                     </a>
                 </article>
                 <article class="news-item">
@@ -40,7 +40,7 @@ $title='Les actualités'; ?>
                             <h3 class="news-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
                             <p class="news-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                         </div>
-                        <button class="btn-news">Lire la suite</button>
+                        <span class="btn-news">Lire la suite</span>
                     </a>
                 </article>
                 <article class="news-item">
@@ -51,7 +51,7 @@ $title='Les actualités'; ?>
                             <h3 class="news-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
                             <p class="news-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                         </div>
-                        <button class="btn-news">Lire la suite</button>
+                        <span class="btn-news">Lire la suite</span>
                     </a>
                 </article>
                 <article class="news-item">
@@ -62,7 +62,7 @@ $title='Les actualités'; ?>
                             <h3 class="news-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
                             <p class="news-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                             </div>
-                        <button class="btn-news">Lire la suite</button>
+                        <span class="btn-news">Lire la suite</span>
                     </a>
                 </article>
                 <article class="news-item">
@@ -73,7 +73,7 @@ $title='Les actualités'; ?>
                             <h3 class="news-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h3>
                             <p class="news-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, …</p>
                         </div>
-                        <button class="btn-news">Lire la suite</button>
+                        <span class="btn-news">Lire la suite</span>
                     </a>
                 </article>
             </div>
