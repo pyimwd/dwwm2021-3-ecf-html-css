@@ -59,34 +59,34 @@
             <div class="container">
                 <h2 class="section-title logo-like">Rencontrez les étudiants</h2>
                 <ul class="member-list" role="list">
-                    <a href="student.php" class="member-link">
                         <li class="member-item">
-                            <figure><img src="img/francine-auhi_resultat.webp" srcset="img/francine-auhi@2x_resultat.webp 2x" alt="photo de francine auhi" class="member-img"></figure>
-                            <h3 class="member-title">Francine Auhi</h3>
-                            <span class="member-more">En savoir plus</span>
+                            <a href="student.php" class="member-link">
+                                <figure><img src="img/francine-auhi_resultat.webp" srcset="img/francine-auhi@2x_resultat.webp 2x" alt="photo de francine auhi" class="member-img"></figure>
+                                <h3 class="member-title">Francine Auhi</h3>
+                                <span class="member-more">En savoir plus</span>
+                            </a>
                         </li>
-                    </a>
-                    <a href="student.php" class="member-link">
                         <li class="member-item">
-                            <figure><img src="img/ali-korn_resultat.webp" srcset="img/ali-korn@2x_resultat.webp 2x" alt="photo de ali korn" class="member-img"></figure>
-                            <h3 class="member-title">Ali Korn</h3>
-                            <span class="member-more">En savoir plus</span>
+                            <a href="student.php" class="member-link">
+                                <figure><img src="img/ali-korn_resultat.webp" srcset="img/ali-korn@2x_resultat.webp 2x" alt="photo de ali korn" class="member-img"></figure>
+                                <h3 class="member-title">Ali Korn</h3>
+                                <span class="member-more">En savoir plus</span>
+                            </a>
                         </li>
-                    </a>
-                    <a href="student.php" class="member-link">
                         <li class="member-item">
-                            <figure><img src="img/jean-vascrit_resultat.webp" srcset="img/jean-vascrit@2x_resultat.webp 2x" alt="photo de jean vascrit" class="member-img"></figure>
-                            <h3 class="member-title">Jean Vascrit</h3>
-                            <span class="member-more">En savoir plus</span>
+                            <a href="student.php" class="member-link">
+                                <figure><img src="img/jean-vascrit_resultat.webp" srcset="img/jean-vascrit@2x_resultat.webp 2x" alt="photo de jean vascrit" class="member-img"></figure>
+                                <h3 class="member-title">Jean Vascrit</h3>
+                                <span class="member-more">En savoir plus</span>
+                            </a>
                         </li>
-                    </a>
-                    <a href="student.php" class="member-link">
                         <li class="member-item">
-                            <figure><img src="img/lara-velle_resultat.webp" srcset="img/lara-velle@2x_resultat.webp 2x" alt="photo de lara velle" class="member-img"></figure>
-                            <h3 class="member-title">Lara Velle</h3>
-                            <span class="member-more">En savoir plus</span>
-                        </li>
-                    </a>
+                            <a href="student.php" class="member-link">
+                                <figure><img src="img/lara-velle_resultat.webp" srcset="img/lara-velle@2x_resultat.webp 2x" alt="photo de lara velle" class="member-img"></figure>
+                                <h3 class="member-title">Lara Velle</h3>
+                                <span class="member-more">En savoir plus</span>
+                            </a>
+                        </li> 
                 </ul>
             </div>
         </section>
