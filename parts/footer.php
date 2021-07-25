@@ -2,8 +2,8 @@
     <footer class="site-footer">
         <div class="container">
             <address class="widget-address">
-                <h2 class="footer-title">Développeur Web et Web Mobile</h2>
                 <ul class="contact-list" role="list">
+                    <li class="contact-item footer-title">Développeur Web et Web Mobile</li>
                     <li class="contact-item name">CEFIM</li>
                     <li class="contact-item location">
                         32 Avenue Marcel Dassault<br>
